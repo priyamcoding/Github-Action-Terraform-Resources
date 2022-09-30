@@ -21,15 +21,15 @@ env:
 
 
 jobs:
-  terraformInit:
+  terraforminit:
     # The type of runner that the job will run on
-    name: terraInit
+    name: terraforminit
     runs-on: ubuntu-latest
     
     defaults:
       run:
         working-directory: ./modules
-        
+
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout
